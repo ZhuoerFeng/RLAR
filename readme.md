@@ -70,32 +70,6 @@ wget https://drive.google.com/file/d/1M--Ik7tHcH_wm6uz3SVxulR2EiLtj5BS/view?usp=
 
 You will get ```train.parquet```, ```valid.parquet```, which suits for `verl` framework training.
 
-
-```
-MIT License
-
-Copyright (c) [2025] [anonymous author]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-```
-
-
 ---
 
 ## ⚙️ Usage
@@ -136,19 +110,9 @@ model.get_api_result(messages=[...])
 
 ## 📜 Methodology
 
-RLAR’s reward system is designed to dynamically:
-- Interpret multi-task prompts  
-- Allocate adaptive rewards based on reasoning
-- Update policy to minimize task confusion
-
-**[Placeholder: add short pseudo-code or diagram here]**
-
 ---
 
 ## 📊 Experimental Results
-
-Experiments were conducted on [Placeholder: dataset/task names].  
-Key metrics: [Placeholder: metrics table + results summary]
 
 ---
 
@@ -169,23 +133,28 @@ If you find this work useful, please cite:
 
 ## 📄 License
 
-[Placeholder: Add license type — MIT, Apache, etc.]
 
----
+```
+MIT License
 
-## 🔍 Notes / TODOs
-- Add `requirements.txt` with dependency versions  
-- Complete dataset details (size, preprocessing, benchmark tasks)  
-- Add methodology diagram and explanation  
-- Provide training/inference example configs  
-- Include VERL modification summary
+Copyright (c) [2025] [anonymous author]
 
----
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-### 💡 Suggestion
-You should consider adding:
-- `requirements.txt` for easy installation
-- Example configs in a `/configs/` folder
-- Docs folder with methodology diagrams, for clarity in submission
-- A brief section on limitations and future work (impresses reviewers)
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+```
 
